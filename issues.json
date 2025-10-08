@@ -1,5 +1,5 @@
 {
-  "lastId": 1,
+  "lastId": 2,
   "issues": [
     {
       "id": 1,
@@ -16,6 +16,15 @@
         }
       ],
       "updatedAt": "2025-10-08T09:34:43.583Z"
+    },
+    {
+      "id": 2,
+      "title": "priya",
+      "description": "good girl",
+      "status": "Open",
+      "createdBy": "Alice",
+      "createdAt": "2025-10-08T09:56:47.789Z",
+      "comments": []
     }
   ]
 }
