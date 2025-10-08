@@ -21,10 +21,11 @@
       "id": 2,
       "title": "priya",
       "description": "good girl",
-      "status": "Open",
+      "status": "Closed",
       "createdBy": "Alice",
       "createdAt": "2025-10-08T09:56:47.789Z",
-      "comments": []
+      "comments": [],
+      "updatedAt": "2025-10-08T10:16:05.181Z"
     },
     {
       "id": 3,
