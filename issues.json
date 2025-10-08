@@ -1,5 +1,5 @@
 {
-  "lastId": 2,
+  "lastId": 3,
   "issues": [
     {
       "id": 1,
@@ -24,6 +24,15 @@
       "status": "Open",
       "createdBy": "Alice",
       "createdAt": "2025-10-08T09:56:47.789Z",
+      "comments": []
+    },
+    {
+      "id": 3,
+      "title": "Ayush",
+      "description": "Nice boy",
+      "status": "Open",
+      "createdBy": "Alice",
+      "createdAt": "2025-10-08T10:15:56.121Z",
       "comments": []
     }
   ]
