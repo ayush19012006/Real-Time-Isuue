@@ -5,7 +5,7 @@
       "id": 1,
       "title": "ABRA",
       "description": "DABRA",
-      "status": "Closed",
+      "status": "In Progress",
       "createdBy": "Alice",
       "createdAt": "2025-10-08T09:22:34.651Z",
       "comments": [
@@ -15,7 +15,7 @@
           "at": "2025-10-08T09:23:23.934Z"
         }
       ],
-      "updatedAt": "2025-10-08T09:31:14.297Z"
+      "updatedAt": "2025-10-08T09:34:41.131Z"
     }
   ]
 }
