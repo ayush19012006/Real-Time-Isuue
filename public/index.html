@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Real-Time Issue Tracker</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: Arial, sans-serif; margin: 16px; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 12px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    form { margin-bottom: 12px; }
+    .comment { margin-left: 12px; font-size: .95em; color: #333; }
+    .status-btn { margin-right: 6px; }
+  </style>
+</head>
+<body>
+  <h2>Real-Time Issue Tracker</h2>
+
+  <div>
+    <label>Your name: <input id="actor" value="Alice" /></label>
+  </div>
+
+  <h3>Create Issue</h3>
+  <form id="addForm">
+    <input name="title" placeholder="Title" required style="width: 40%;" />
+    <input name="description" placeholder="Description" style="width: 40%;" />
+    <button type="submit">Add Issue</button>
+  </form>
+
+  <h3>Issues</h3>
+  <table id="issuesTable">
+    <thead>
+      <tr><th>ID</th><th>Title</th><th>Status</th><th>Created By</th><th>Actions</th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <template id="issue-row">
+    <tr>
+      <td class="id"></td>
+      <td class="title"></td>
+      <td class="status"></td>
+      <td class="createdBy"></td>
+      <td>
+        <button class="set-inprogress status-btn">In Progress</button>
+        <button class="set-closed status-btn">Closed</button>
+        <button class="show-comments">Comments</button>
+        <div class="comment-area" style="display:none; margin-top:8px;">
+          <div class="comments-list"></div>
+          <form class="comment-form">
+            <input name="text" placeholder="Add comment" required style="width:70%;" />
+            <button type="submit">Add</button>
+          </form>
+        </div>
+      </td>
+    </tr>
+  </template>
+
+  <script src="/main.js"></script>
+</body>
+</html>

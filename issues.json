@@ -1,0 +1,21 @@
+{
+  "lastId": 1,
+  "issues": [
+    {
+      "id": 1,
+      "title": "ABRA",
+      "description": "DABRA",
+      "status": "Closed",
+      "createdBy": "Alice",
+      "createdAt": "2025-10-08T09:22:34.651Z",
+      "comments": [
+        {
+          "text": "HELLO ABRA",
+          "by": "Alice",
+          "at": "2025-10-08T09:23:23.934Z"
+        }
+      ],
+      "updatedAt": "2025-10-08T09:31:14.297Z"
+    }
+  ]
+}
